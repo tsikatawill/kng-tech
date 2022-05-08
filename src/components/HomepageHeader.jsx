@@ -12,9 +12,9 @@ const HomepageHeader = () => {
           We are KNG Tech
         </h1>
         <p className="text-lg sm:text-2xl max-w-2xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quia
-          quas accusantium praesentium et perspiciatis molestiae est iste
-          provident ut!
+          We believe that providing world-class software development and
+          services which centres on user's experience plays a supportive role to
+          your holistic business growth.
         </p>
         <div className="cta">
           <Link
