@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("./fonts/Raleway.ttf");
+}
+
+body {
+  /* @apply bg-slate-100; */
+  font-family: Raleway, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::before {
+  content: "s";
+  @apply h-32 sm:h-20 block top-0;
+}
+
+.container {
+  @apply px-5 2xl:px-0 max-w-screen-xl;
+}
+
+.btn {
+  @apply px-3 py-2 rounded-md cursor-pointer hover:scale-95 whitespace-nowrap;
+}
+
+header.homepage-header {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.98)
+    ),
+    url(./imgs/header.jpg) no-repeat center center/cover;
+}
+
+header.outsourcing-header {
+  background: url(./imgs/community.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+header.about-header {
+  background: url(./imgs/about.jpg) no-repeat center center/cover;
+}
+
+section .container {
+  @apply py-20;
+}
+
+.contact-form .input-group {
+  @apply flex flex-col gap-2 mb-5;
+}
+
+.contact-form textarea,
+.contact-form input {
+  @apply p-2 border border-gray-400 rounded-sm;
+}
+
+.scroll-indicator {
+  position: relative;
+}
+
+.scroll-indicator .scrollwheel {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll 0.85s alternate infinite ease-in;
+}
+
+@keyframes scroll {
+  0% {
+    top: 20px;
+  }
+  25% {
+    top: 30px;
+  }
+  50% {
+    top: 40px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 60px;
+  }
+}
