@@ -1,9 +1,15 @@
 import React from "react";
-import ShowcaseItem from "./ShowcaseItem";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { FaHandPaper } from "react-icons/fa";
+import Portrait from "../imgs/portrait.png";
+import ScheduledCall from "../imgs/scheduled_call.png";
+import Midwife from "../imgs/midwife.png";
+import Edit from "../imgs/edit.png";
+import Calendar from "../imgs/calendar.png";
+import Sideview from "../imgs/side-view.png";
+import Home from "../imgs/home.png";
 
 const WorkShowcaseSection = () => {
   return (
@@ -17,14 +23,56 @@ const WorkShowcaseSection = () => {
           </p>
         </div>
         <div className="mx-5">
-          <OwlCarousel autoplay={true} loop margin={0} items={1}>
-            <ShowcaseItem />
-            <ShowcaseItem />
-            <ShowcaseItem />
+          <OwlCarousel center={true} autoplay={true} loop margin={0} items={1}>
+            <div className="slide-item grid place-content-center h-96 p-5 rounded-md">
+              <div className="image h-80">
+                <img src={Portrait} alt="pic" className="h-full" />
+              </div>
+              <div className="text text-center">
+                <h2 className="font-bold">Amemba Journal</h2>
+                <p className="capitalize">The care you deserve</p>
+              </div>
+            </div>
+            <div className="slide-item grid place-content-center h-96 p-5 rounded-md">
+              <div className="image h-80">
+                <img src={Calendar} alt="pic" className="h-full" />
+              </div>
+              <div className="text text-center">
+                <h2 className="font-bold">Amemba Journal</h2>
+                <p className="capitalize">The care you deserve</p>
+              </div>
+            </div>
+            <div className="slide-item grid place-content-center h-96 p-5 rounded-md">
+              <div className="image h-80">
+                <img src={Sideview} alt="pic" className="h-full" />
+              </div>
+              <div className="text text-center">
+                <h2 className="font-bold">Amemba Journal</h2>
+                <p className="capitalize">The care you deserve</p>
+              </div>
+            </div>
+            <div className="slide-item grid place-content-center h-96 p-5 rounded-md">
+              <div className="image h-80">
+                <img src={ScheduledCall} alt="pic" className="h-full" />
+              </div>
+              <div className="text text-center">
+                <h2 className="font-bold">Moms & Midwives</h2>
+                <p className="capitalize">The care you deserve</p>
+              </div>
+            </div>
+            <div className="slide-item grid place-content-center h-96 p-5 rounded-md">
+              <div className="image h-80">
+                <img src={Sideview} alt="pic" className="h-full" />
+              </div>
+              <div className="text text-center">
+                <h2 className="font-bold">Moms & Midwives</h2>
+                <p className="capitalize">The care you deserve</p>
+              </div>
+            </div>
           </OwlCarousel>
 
           <div className="instructions flex flex-col items-center gap-2 mt-10">
-            <FaHandPaper />
+            <FaHandPaper className="hand-icon" />
             <small>Swipe to scroll</small>
           </div>
         </div>

@@ -3,6 +3,7 @@ import App from "../App";
 import HomepageHeader from "../components/HomepageHeader";
 import RecentWorkSection from "../components/RecentWorkSection";
 import ServicesSection from "../components/ServicesSection";
+import WorkShowcaseSection from "../components/WorkShowcaseSection";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <HomepageHeader />
       <ServicesSection />
       <RecentWorkSection />
+      <WorkShowcaseSection />
     </App>
   );
 };

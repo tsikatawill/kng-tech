@@ -73,7 +73,7 @@ section .container {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  animation: scroll 0.85s alternate infinite ease-in;
+  animation: scroll 0.85s infinite ease-in;
 }
 
 @keyframes scroll {
@@ -91,5 +91,19 @@ section .container {
   }
   100% {
     top: 60px;
+  }
+}
+
+.hand-icon {
+  animation: swipe 0.7s alternate-reverse infinite ease-in-out;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translateX(30px);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
