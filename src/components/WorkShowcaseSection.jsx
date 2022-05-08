@@ -5,11 +5,11 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { FaHandPaper } from "react-icons/fa";
 import Portrait from "../imgs/portrait.png";
 import ScheduledCall from "../imgs/scheduled_call.png";
-import Midwife from "../imgs/midwife.png";
-import Edit from "../imgs/edit.png";
+// import Midwife from "../imgs/midwife.png";
+// import Edit from "../imgs/edit.png";
 import Calendar from "../imgs/calendar.png";
 import Sideview from "../imgs/side-view.png";
-import Home from "../imgs/home.png";
+// import Home from "../imgs/home.png";
 
 const WorkShowcaseSection = () => {
   return (
