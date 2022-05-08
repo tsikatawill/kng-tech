@@ -24,7 +24,7 @@ const WorkShowcaseSection = () => {
         </div>
         <div className="mx-5">
           <OwlCarousel center={true} autoplay={true} loop margin={0} items={1}>
-            <div className="slide-item grid place-content-center h-[96] bg-red-300 p-5 rounded-md">
+            <div className="slide-item grid place-content-center h-[96] p-5 rounded-md">
               <div className="image h-80">
                 <img src={Portrait} alt="pic" className="h-full" />
               </div>
@@ -33,7 +33,7 @@ const WorkShowcaseSection = () => {
                 <p className="capitalize">The care you deserve</p>
               </div>
             </div>
-            <div className="slide-item grid place-content-center h-[96] bg-red-300 p-5 rounded-md">
+            <div className="slide-item grid place-content-center h-[96] p-5 rounded-md">
               <div className="image h-80">
                 <img src={Calendar} alt="pic" className="h-full" />
               </div>
@@ -42,7 +42,7 @@ const WorkShowcaseSection = () => {
                 <p className="capitalize">The care you deserve</p>
               </div>
             </div>
-            <div className="slide-item grid place-content-center h-[96] bg-red-300 p-5 rounded-md">
+            <div className="slide-item grid place-content-center h-[96] p-5 rounded-md">
               <div className="image h-80">
                 <img src={Sideview} alt="pic" className="h-full" />
               </div>
@@ -51,7 +51,7 @@ const WorkShowcaseSection = () => {
                 <p className="capitalize">The care you deserve</p>
               </div>
             </div>
-            <div className="slide-item grid place-content-center h-[96] bg-red-300 p-5 rounded-md">
+            <div className="slide-item grid place-content-center h-[96] p-5 rounded-md">
               <div className="image h-80">
                 <img src={ScheduledCall} alt="pic" className="h-full" />
               </div>
@@ -60,7 +60,7 @@ const WorkShowcaseSection = () => {
                 <p className="capitalize">The care you deserve</p>
               </div>
             </div>
-            <div className="slide-item grid place-content-center h-[96] bg-red-300 p-5 rounded-md">
+            <div className="slide-item grid place-content-center h-[96] p-5 rounded-md">
               <div className="image h-80">
                 <img src={Sideview} alt="pic" className="h-full" />
               </div>
