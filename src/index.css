@@ -73,7 +73,7 @@ section .container {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  animation: scroll 0.85s infinite ease-in;
+  animation: scroll 0.7s infinite alternate-reverse ease-in-out;
 }
 
 @keyframes scroll {
