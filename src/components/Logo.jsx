@@ -5,7 +5,11 @@ import LogoLight from "../imgs/logo-light.svg";
 const Logo = () => {
   return (
     <Link to="/">
-      <img src={LogoLight} className="w-28 mx-auto sm:mx-0" alt="logo-white" />
+      <img
+        src={LogoLight}
+        className="w-20 sm:w-28 mx-auto sm:mx-0"
+        alt="logo-white"
+      />
     </Link>
   );
 };

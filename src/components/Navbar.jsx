@@ -6,7 +6,7 @@ import Logo from "./Logo";
 const Navbar = () => {
   return (
     <nav
-      className="navbar bg-slate-900 fixed w-full h-32 sm:h-20 top-0 z-50 shadow-md"
+      className="navbar bg-slate-900 fixed w-full h-24 sm:h-20 top-0 z-50 shadow-md"
       data-scroll-section
     >
       <div className="container flex flex-col py-2 sm:flex-row items-center h-full text-white font-semibold gap-2">

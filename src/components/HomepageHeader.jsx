@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HomepageHeader = () => {
   return (
     <header
-      className="homepage-header h-[calc(100vh-8rem)] sm:min-h-fit sm:h-[500px]"
+      className="homepage-header h-[calc(100vh-6rem)] sm:min-h-fit sm:h-[500px]"
       data-scroll-section
     >
       <div className="container flex flex-col items-center justify-center h-full gap-10 text-white text-center">

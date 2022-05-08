@@ -20,8 +20,8 @@ body {
 }
 
 body::before {
-  content: "s";
-  @apply h-32 sm:h-20 block top-0;
+  content: "";
+  @apply h-24 sm:h-20 block top-0;
 }
 
 .container {
